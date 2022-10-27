@@ -27,6 +27,7 @@ const Graph = () => {
   }, []);
 
   // reset zoom
+  // https://stackoverflow.com/questions/48790190/how-to-reset-zoom-in-d3-js
   const restore = () => {
     svg.current
       .transition()
